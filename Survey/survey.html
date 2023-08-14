@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hepta XXIV Satisfaction Survey</title>
+    <link rel="stylesheet" href="survey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="New Logo.png" type="image/png">
+</head>
+<body>
+    <div id="header">
+        <img src="New Logo.png" alt="Hepta's Brand Logo">
+        <h1>Hepta XXIV Satisfaction Survey</h1>
+    </div>
+    <div id="form">
+    <form target="_blank" autocomplete="on" autocapitalize="on">
+        <div class="label-1">
+            <label for="name" class="label">Name</label><br>
+            <input  class="inp"id="name"type="text" name="name"placeholder="Enter your Full Name">
+        </div>
+        <div class="label-1">
+            <label for="email" class="label">E-mail</label><br>
+            <input class="inp" id="email" type="email" name="email" placeholder="Enter Your Email Address">
+        </div>
+        <div class="label-1">
+            <label for="selection" class="label">Satisfaction Level</label><br>
+            <select  class="inp"name="selection" id="selection">
+                <option selected >Choose Appropriate Option</option>
+                <option value="Very Satisfied">Very Satisfied</option>
+                <option value="Satisfied">Satisfied</option>
+                <option value="Indifferent">Indifferent</option>
+                <option value="Unsatisfied">Unsatisfied</option>
+                <option value="Very Unsatisfied">Very Unsatisfied</option>
+            </select> 
+        </div>
+        <div class="label-1">
+            <label class="label">Would you recommend us to others</label><br>
+            <label for="rec-1">
+                <input class="recom"id="rec-1"type="radio" name="recommend">Yes</input>
+            </label><br>
+            <label for="rec-2">
+                <input class="recom" id="rec-2" type="radio" name="recommend">No
+            </label><br>
+            <label for="rec-3">
+                <input class="recom" id="rec-3" type="radio" name="recommend">Maybe
+            </label>
+        </div>
+            <div class="label-1">
+                <label for="CnS" class="label">Comments And Suggestions</label><br>
+                <textarea  class="inp" id="CnS" name="CnS" type="text"></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        
+
+    </form>
+    </div>
+</body>
+</html>

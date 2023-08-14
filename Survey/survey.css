@@ -1,0 +1,79 @@
+body{
+    background: linear-gradient(orange,yellow);;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+h1{
+    color: black;
+}
+
+#form{
+    background: white;
+    max-width: 700px;
+    
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px 10px ;
+    
+    
+}
+.label-1{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    
+
+}
+
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    
+    font-style: italic;
+}
+
+.inp{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+   
+
+}
+
+button{
+    border: 1px solid black;
+    background: white;
+    border-radius: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.4s;
+
+
+
+}
+
+.recom{
+    margin-top: 15px;
+}
+
+button:hover{
+    background: black;
+    color: white;
+    text-shadow: 0px 0px 10px white;
+}
+
+img{
+    width: 150px;
+    
+}
